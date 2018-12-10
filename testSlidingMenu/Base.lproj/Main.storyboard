@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SlP-wq-NxI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Kaww's Translator-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testMultipleViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8t-hQ-bWv">
+                                <rect key="frame" x="162.5" y="164" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="9k3-iz-UXN"/>
+                                    <constraint firstAttribute="height" constant="30" id="DJU-71-ydR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A9T-EG-x2q">
+                                <rect key="frame" x="0.0" y="64" width="190" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BoE-A2-J22">
+                                        <rect key="frame" x="8" y="16" width="174" height="190"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LW0-iD-oBM">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="is7-ki-pR0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="English / French">
+                                                    <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPA-Ww-AjE">
+                                                <rect key="frame" x="0.0" y="70" width="174" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="iYu-xf-tGi"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="French / English">
+                                                    <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5v-Jv-Oa5">
+                                                <rect key="frame" x="0.0" y="140" width="174" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="080-wD-gOF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="Settings">
+                                                    <color key="titleColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="qPA-Ww-AjE" firstAttribute="leading" secondItem="BoE-A2-J22" secondAttribute="leading" id="913-mi-B6r"/>
+                                            <constraint firstItem="x5v-Jv-Oa5" firstAttribute="leading" secondItem="BoE-A2-J22" secondAttribute="leading" id="Kf8-oh-SHZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="LW0-iD-oBM" secondAttribute="trailing" id="ZUm-7Q-KYg"/>
+                                            <constraint firstAttribute="trailing" secondItem="qPA-Ww-AjE" secondAttribute="trailing" id="am4-vt-lbc"/>
+                                            <constraint firstAttribute="trailing" secondItem="x5v-Jv-Oa5" secondAttribute="trailing" id="fPT-Qc-5B5"/>
+                                            <constraint firstItem="LW0-iD-oBM" firstAttribute="leading" secondItem="BoE-A2-J22" secondAttribute="leading" id="rqP-mx-YAA"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75294117647058822" green="0.80000000000000004" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="BoE-A2-J22" firstAttribute="leading" secondItem="A9T-EG-x2q" secondAttribute="leading" constant="8" id="0XT-VS-0n7"/>
+                                    <constraint firstItem="BoE-A2-J22" firstAttribute="top" secondItem="A9T-EG-x2q" secondAttribute="top" constant="16" id="1NA-yW-8bg"/>
+                                    <constraint firstAttribute="width" constant="190" id="3Gk-5g-GyO"/>
+                                    <constraint firstAttribute="trailing" secondItem="BoE-A2-J22" secondAttribute="trailing" constant="8" id="kOl-i8-WGu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81176470588235294" green="0.84705882352941175" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="F8t-hQ-bWv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="35b-yj-pHu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A9T-EG-x2q" secondAttribute="bottom" id="8l9-Jt-vv1"/>
+                            <constraint firstItem="A9T-EG-x2q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GIe-M3-VbT"/>
+                            <constraint firstItem="F8t-hQ-bWv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aQG-7K-cb5"/>
+                            <constraint firstItem="A9T-EG-x2q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jYO-u7-E1Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kaww's Translator" id="W9C-uQ-XZd">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="Fzs-Ej-UH7">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="toggleMenu:" destination="BYZ-38-t0r" id="Wsh-vB-Kkw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leadingConstraint" destination="GIe-M3-VbT" id="0AQ-q1-lzo"/>
+                        <outlet property="menuView" destination="A9T-EG-x2q" id="I0a-ks-YqC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413.60000000000002" y="-567.16641679160421"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aLc-8C-cvd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SlP-wq-NxI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5hG-bA-bE3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.32549019607843138" green="0.42745098039215684" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sGo-JP-Kr8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fEy-Sk-4VF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-314.39999999999998" y="-567.16641679160421"/>
+        </scene>
+    </scenes>
+</document>
