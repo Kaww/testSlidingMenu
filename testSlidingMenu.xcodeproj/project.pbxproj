@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59096AEE21BECA7A006B4335 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59096AED21BECA7A006B4335 /* Default-568h@2x.png */; };
 		59301B6C21A1E7AA00F5150E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59301B6B21A1E7AA00F5150E /* AppDelegate.swift */; };
 		59301B6E21A1E7AA00F5150E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59301B6D21A1E7AA00F5150E /* ViewController.swift */; };
 		59301B7121A1E7AA00F5150E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59301B6F21A1E7AA00F5150E /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		59301B6821A1E7AA00F5150E /* testMultipleViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMultipleViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59096AED21BECA7A006B4335 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		59301B6821A1E7AA00F5150E /* testSlidingMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSlidingMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59301B6B21A1E7AA00F5150E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59301B6D21A1E7AA00F5150E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59301B7021A1E7AA00F5150E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +40,8 @@
 		59301B5F21A1E7A900F5150E = {
 			isa = PBXGroup;
 			children = (
-				59301B6A21A1E7AA00F5150E /* testMultipleViews */,
+				59096AED21BECA7A006B4335 /* Default-568h@2x.png */,
+				59301B6A21A1E7AA00F5150E /* testSlidingMenu */,
 				59301B6921A1E7AA00F5150E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +49,12 @@
 		59301B6921A1E7AA00F5150E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59301B6821A1E7AA00F5150E /* testMultipleViews.app */,
+				59301B6821A1E7AA00F5150E /* testSlidingMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59301B6A21A1E7AA00F5150E /* testMultipleViews */ = {
+		59301B6A21A1E7AA00F5150E /* testSlidingMenu */ = {
 			isa = PBXGroup;
 			children = (
 				59301B6B21A1E7AA00F5150E /* AppDelegate.swift */,
@@ -61,15 +64,15 @@
 				59301B7421A1E7AB00F5150E /* LaunchScreen.storyboard */,
 				59301B7721A1E7AB00F5150E /* Info.plist */,
 			);
-			path = testMultipleViews;
+			path = testSlidingMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59301B6721A1E7A900F5150E /* testMultipleViews */ = {
+		59301B6721A1E7A900F5150E /* testSlidingMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59301B7A21A1E7AB00F5150E /* Build configuration list for PBXNativeTarget "testMultipleViews" */;
+			buildConfigurationList = 59301B7A21A1E7AB00F5150E /* Build configuration list for PBXNativeTarget "testSlidingMenu" */;
 			buildPhases = (
 				59301B6421A1E7A900F5150E /* Sources */,
 				59301B6521A1E7A900F5150E /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = testMultipleViews;
+			name = testSlidingMenu;
 			productName = testMultipleViews;
-			productReference = 59301B6821A1E7AA00F5150E /* testMultipleViews.app */;
+			productReference = 59301B6821A1E7AA00F5150E /* testSlidingMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 59301B6321A1E7A900F5150E /* Build configuration list for PBXProject "testMultipleViews" */;
+			buildConfigurationList = 59301B6321A1E7A900F5150E /* Build configuration list for PBXProject "testSlidingMenu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59301B6721A1E7A900F5150E /* testMultipleViews */,
+				59301B6721A1E7A900F5150E /* testSlidingMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59301B7621A1E7AB00F5150E /* LaunchScreen.storyboard in Resources */,
+				59096AEE21BECA7A006B4335 /* Default-568h@2x.png in Resources */,
 				59301B7321A1E7AB00F5150E /* Assets.xcassets in Resources */,
 				59301B7121A1E7AA00F5150E /* Main.storyboard in Resources */,
 			);
@@ -284,7 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89EXPD2XDP;
-				INFOPLIST_FILE = testMultipleViews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testSlidingMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89EXPD2XDP;
-				INFOPLIST_FILE = testMultipleViews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testSlidingMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59301B6321A1E7A900F5150E /* Build configuration list for PBXProject "testMultipleViews" */ = {
+		59301B6321A1E7A900F5150E /* Build configuration list for PBXProject "testSlidingMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59301B7821A1E7AB00F5150E /* Debug */,
@@ -326,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59301B7A21A1E7AB00F5150E /* Build configuration list for PBXNativeTarget "testMultipleViews" */ = {
+		59301B7A21A1E7AB00F5150E /* Build configuration list for PBXNativeTarget "testSlidingMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59301B7B21A1E7AB00F5150E /* Debug */,
